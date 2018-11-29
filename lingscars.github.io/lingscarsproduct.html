@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ling's Cars</title>
+    <link rel="stylesheet" type="text/css" href="stylelings.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Montserrat" rel="stylesheet">
+
+
+   </head>
+<body>
+<div class="logo"><table align="left" class="title"><tr><td><a href="lingscarshome.html"><h1>LING'S CARS</h1></a></td></div>
+
+    <div>
+    
+       <td><table align="center" class="t02">
+            <tr><th>About Ling</th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th><a href="lingscarsproduct.html">The Cars</a></th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th><a href="lingscarsGETAQUOTE.html">Get a Quote</a></th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th>FAQ</th></tr>
+        </table></div>
+</table>
+
+    </div>
+    </p>
+
+
+<p>
+
+<div><table align="center" class="subtitle"><tr><td>Over <b>€82 million</b> in cars leased in 2017</td>
+</table>
+</div>
+</p>
+
+<p><div><table align="center" class="filters"><tr><td>
+  <input type="text" placeholder="Search.." id="search">
+  <input type="button" value="Go" id="gobutton">
+  <p>
+ <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Make</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="productaudi.html">Audi</a>
+    <a href="productmer.html">Mercedes</a>
+    <a href="productvolvo.html">Volvo</a>
+  </div>
+</div>
+</p>
+<p>
+<div class="dropdown">
+  <button onclick="myFunction2()" class="dropbtn">Price</button>
+  <div id="myDropdown2" class="dropdown-content">
+    <a href="productmostr.html">Most Recent</a>
+    <a href="productlth.html">Low to High</a>
+    <a href="producthtl.html">High to Low</a>
+  </div>
+</div>
+</p>
+<p><a href=""><img src="quotebutton.png"></a></p>
+  </p></td>
+
+<td><table align="center" class="right">
+    <tr><center><text id="content">Search for Audi, Mercedes, or Volvo</text>
+        <p>
+            <img id="cars" src="ling-on-bike.png">
+            </p></center></tr></table>
+
+</table>
+
+
+
+</div></p>
+
+
+
+<script type="text/javascript">
+
+    var go=document.querySelector("#gobutton");
+    
+
+    go.addEventListener("click", g0);
+
+    function g0() {
+
+    var srch=document.getElementById("search").value;
+    var con=document.querySelector("#content");
+
+        if (srch=="Audi"){
+                con.textContent="We have 3 Audis available:";
+                document.getElementById("cars").src="audi.png";
+
+        }
+
+        if (srch=="audi"){
+                con.textContent="We have 3 Audis available:";
+                document.getElementById("cars").src="audi.png";
+
+        }
+
+        else if (srch=="Mercedes"){
+                con.textContent="We have 2 Mercedes available:";
+                document.getElementById("cars").src="mer.png";
+
+        }
+
+        else if (srch=="mercedes"){
+                con.textContent="We have 2 Mercedes available:";
+                document.getElementById("cars").src="mer.png";
+        }
+
+        else if (srch=="Volvo"){
+                con.textContent="We have 2 Volvos available:";
+                document.getElementById("cars").src="volvo.png";
+
+        }
+
+        else if (srch=="volvo"){
+                con.textContent="We have 2 Volvos available:";
+                document.getElementById("cars").src="volvo.png";
+        }
+
+        else {
+            alert("Please search Audi, Mercedes, or Volvo");
+        }
+
+    }
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+</script>
+
+
+</body>
+</html>

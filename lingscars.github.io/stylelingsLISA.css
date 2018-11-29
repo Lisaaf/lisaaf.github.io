@@ -1,0 +1,114 @@
+body {background: url("ling_frontpage.png");
+background-attachment: 500px;
+background-position: right bottom;
+background-size: 900px;
+background-repeat: no-repeat;
+}  
+
+h1 {color: #FF0000;
+font-family: 'Open Sans', sans-serif;
+font-size: 30px;
+font-weight: bolder;
+letter-spacing: 3pt;}
+
+h4 {color: #FF0000;
+font-family: 'Open Sans', sans-serif;
+font-size: 25px;
+font-weight: bolder;
+	}
+
+h2 {color: #1911BE;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;}
+
+a {color: #FF0000;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: normal;
+text-decoration: none;
+}
+
+
+p {color: #FF0000;
+	font-weight: bold;
+font-size: 16px;
+font-family: 'Montserrat', sans-serif;}
+
+
+table.title { width: 1020px;
+text-align: left;
+padding: 5px;
+}
+
+table.subtitle { width: 700px;
+text-align: center;
+padding: 5px;
+color: #1911BE;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+}
+
+table.t02 th { width: auto;
+text-align: center;
+color: #FF0000;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+padding: 20px;
+background-color: transparent;
+border: none;
+}
+
+table.t02 td { width: auto;
+text-align: center;
+color: #FF0000;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+padding: 20px;
+background-color: transparent;
+border: none;
+}
+
+
+table.details { width: 600px;
+text-align: center;
+padding: 5px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+
+table.transbox {
+  margin: 30px;
+  background:rgba(255,255,255, 0.6);
+  width: 500px;
+  padding-top: 30px;
+  padding-left: 180px;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  color: #000000;
+font-weight: bold;
+font-size: 14px;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+#next {
+color: #ffffff;
+background-color: #ff0000;	
+width:100px;
+height:30px;
+font-size: 18px;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+#next {
+border-radius: 12px;
+}
+
+
+table.details {
+}
+
+

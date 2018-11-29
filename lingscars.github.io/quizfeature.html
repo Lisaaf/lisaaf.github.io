@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <title>Ling's Cars</title>
+    <link rel="stylesheet" type="text/css" href="stylelings.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:800|Montserrat" rel="stylesheet">
+
+
+   </head>
+<body>
+<div class="logo"><table align="left" class="title"><tr><td><a href="lingscarshome.html"><h1>LING'S CARS</h1></a></td></div>
+
+    <div>
+    
+       <td><table align="center" class="t02">
+            <tr><th>About Ling</th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th><a href="lingscarsproduct.html">The Cars</a></th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th><a href="lingscarsGETAQUOTE.html">Get a Quote</a></th></tr>
+        </table>
+
+        <td><table align="center" class="t02">
+            <tr><th>FAQ</th></tr>
+        </table></div>
+</table>
+
+    </div>
+    </p>
+
+
+<p>
+
+<div><table align="center" class="subtitle"><tr><td>Over <b>€82 million</b> in cars leased in 2017</td>
+</table>
+</div>
+</p>
+
+
+<td><table align="center" class="QUIZ">
+    <tr><center><h3> Welcome to Ling's Car Quiz! </h3>
+
+<p>Name this car:</p>
+    <p><img src="topolino.jpg" width="300" height="200"></p>
+    <p>
+    <ul>
+        <li id="ans1">Fiat Topolino</li>
+        <li id="ans2">Ford Dixie</li>
+        <li id="ans3">Toyota Imp</li>
+    </ul></p>
+    <p id="ansbox"><font size="4" color="red"><strong>Hmmmm...make your best guess, quick now!</strong></font></p>
+        </center></tr></table>
+
+</table>
+<a href="lingscarsproduct.html"><img src="todaysdeals.png" width="300" align="right"></a>
+
+</div></p>
+
+<script>
+        var firstans=document.querySelector("#ans1");
+        var secondans=document.querySelector("#ans2");
+        var thirdans=document.querySelector("#ans3");
+        var anstext=document.querySelector("#ansbox");
+
+        firstans.addEventListener("click", changeColor);
+        secondans.addEventListener("click", changeColor);
+        thirdans.addEventListener("click", changeColor);
+
+
+        function changeColor(){
+            if(this.id=="ans1"){
+                firstans.style.backgroundColor="yellow";
+                anstext.textContent="Your answer is correct!"
+            }
+            else if(this.id=="ans2"){
+                secondans.style.backgroundColor="#91A4FF";
+                anstext.textContent="Your answer is incorrect.";
+            }
+            else{
+                thirdans.style.backgroundColor="#91A4FF";
+                anstext.textContent="Your answer is incorrect.";
+            }
+
+       }
+     </script>
+</body>
+</html>
